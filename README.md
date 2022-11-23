@@ -23,5 +23,22 @@ A brief description of the identifiers included in this dataset:
 - group – Another identifier that more narrowly specifies a plan underneath the broader “bin” rejected – Whether the billing transaction was rejected by the plan
 - patient_pay – The amount of copayment for which the patient is responsible
 
+## Tools 
+Python
+Skitlearn
+
 ## Data EDA Process
+#### Cleaning the data
+ 
+
+## Machine Learning 
+- feature analysis
+
+- feature engennering
+
+- 
+
+## Conclusions 
+
+
 

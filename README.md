@@ -27,8 +27,8 @@ A brief description of the identifiers included in this dataset:
 - patient_pay – The amount of copayment for which the patient is responsible
 
 ## Tools 
-Python
-Skitlearn
+Python packages and libraries: Numpy, Pandas, Skitlearn, CatBoost
+
 
 ## Data EDA Process
 #### Cleaning the data

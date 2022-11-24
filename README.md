@@ -8,10 +8,13 @@ Using a set of (SIMULATED) pharmacy data-billing claims that were run from a pha
 - Initial goal is to provide doctors information about the costs that their patient would expect to see in the pharmacy in case affordability of the medication was an issue.
 - Secondary goal is to also provide information about the potential formulary status of the medication on each insurance plan. 
 - Third goal is to develop a method of grouping similar medications together so that all the options under a patient’s insurance could be compared together based on their relative formulary statuses and copayment requirements.
-## Data Description 
-About 14 million pharmacy transactions from a handful of pharmacies taken over the course of a year 2022 as you can see in the screenshot below:
+## Data Source and Description 
+[Data](https://drive.google.com/drive/folders/1ARlKaPluI1mNB7A-Vd7eHrddBdLt60m4) 
+: About 14 million pharmacy transactions from a handful of pharmacies taken over the course of a year 2022 as you can see in the screenshot below:
 
 ![Screen Shot 2022-11-22 at 11 31 21 PM](https://user-images.githubusercontent.com/65901034/203469662-3520bf76-1bd7-4cbf-a83a-2c4850bd7df8.png)
+
+
 
 A brief description of the identifiers included in this dataset:
 - tx_date – The date on which the pharmacy transaction was attempted

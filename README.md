@@ -32,6 +32,13 @@ Python packages and libraries: Numpy, Pandas, Skitlearn, CatBoost
 
 ## Data EDA Process
 #### Cleaning the data
+- drop duplicates
+#### Percentage of Accepted and Rejected claims in the dataset:
+
+![Screen Shot 2022-11-24 at 11 38 29 PM](https://user-images.githubusercontent.com/65901034/203902584-384e719c-5af3-4bfd-af36-e17d9a8e5b88.png)
+
+
+
  
 
 ## Machine Learning 

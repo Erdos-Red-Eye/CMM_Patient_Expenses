@@ -27,7 +27,8 @@ A brief description of the identifiers included in this dataset:
 - patient_pay – The amount of copayment for which the patient is responsible
 
 ## Tools 
-Python packages and libraries: Numpy, Pandas, Skitlearn, CatBoost
+Python packages and libraries: Numpy, Pandas, Skitlearn
+Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboot classifier, XGboot regressor
 
 
 ## Data EDA Process
@@ -47,12 +48,12 @@ Python packages and libraries: Numpy, Pandas, Skitlearn, CatBoost
 
  
 
-## Machine Learning 
+## Machine Learning models
 - feature analysis
 
 - feature engennering
 
-- 
+- train and test models
 
 ## Conclusions 
 

@@ -40,6 +40,9 @@ Python packages and libraries: Numpy, Pandas, Skitlearn, CatBoost
 #### The distribution of patient copayment in the dataset, both linear and log10 scale:
 ![Screen Shot 2022-11-25 at 1 07 21 AM](https://user-images.githubusercontent.com/65901034/203912922-e2c61aa1-e3af-4c08-a24e-42deacaa20ac.png)
 ![Screen Shot 2022-11-25 at 1 12 04 AM](https://user-images.githubusercontent.com/65901034/203912993-476304f7-47db-48c2-b7f4-6739f22f289c.png)
+![Screen Shot 2022-11-25 at 1 26 55 AM](https://user-images.githubusercontent.com/65901034/203914911-89da7c98-ce95-451f-a496-de7b1fce7baa.png)
+![Screen Shot 2022-11-25 at 1 22 51 AM](https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png)
+
 
 
  

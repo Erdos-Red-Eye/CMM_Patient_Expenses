@@ -64,7 +64,9 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
 
 #### CatBootRegressor:
 
-### In order to classify claims acceptance or rejection, we have tried BalancedRandomForestClassifier and XGboostClassifier:
+### In order to classify claims acceptance or rejection, we have tried 
+    - BalancedRandomForestClassifier
+    - XGboostClassifier
 
 
 ## Conclusions 

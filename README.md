@@ -59,5 +59,8 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
 ## Future perspective
 - To develop a method of grouping similar medications together so that all the options under a patient’s insurance could be compared together based on their relative formulary statuses and copayment requirements.
 
+## Presentation
+- (GoogleSlide)[https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing]
+
 
 

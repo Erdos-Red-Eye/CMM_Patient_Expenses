@@ -51,13 +51,21 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
 ### In order to predict patient payment with optimal accuracy, we have tried several models as following:
     - RandomForestRegressor
     - GradientBoostingRegressor
-    - CatbootRegressor
     - HistGradientBoostingRegressor
+    - CatBootRegressor
+#### RandomForestRegressor and GradientBoostingRegressor 
 - feature analysis
 
 - feature engennering
 
 - train and test models
+- 
+#### HistGradientBoostingRegressor
+
+#### CatBootRegressor
+
+
+
 
 ## Conclusions 
 

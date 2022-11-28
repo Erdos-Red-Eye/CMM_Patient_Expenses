@@ -54,9 +54,16 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
     - HistGradientBoostingRegressor
     - CatBootRegressor
 #### RandomForestRegressor and GradientBoostingRegressor: 
-- feature analysis
+- Feature analysis
+  - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
+- Feature engennering
+  - introduce new features on our training data. We introduce 8 features by aggregating over various columns. These features will have two applications :
+     - Help us build a model to predict patient pay.
+     - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.
+  - correlation among features
 
-- feature engennering
+![Screen Shot 2022-11-27 at 10 47 22 PM](https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png)
+
 
 - train and test models
 

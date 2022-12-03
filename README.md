@@ -89,7 +89,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 
 - Recommendations : One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
 
-### Modelsdirectly  with Categorical features: 
+### Models with Categorical features: 
 #### HistGradientBoostingRegressor:
 
 #### CatBootRegressor:

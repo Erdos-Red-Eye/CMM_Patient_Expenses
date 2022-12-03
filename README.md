@@ -76,11 +76,15 @@ A brief description of the identifiers included in this dataset:
 
 We can clearly see Random Forest and Gradient Boost Regressor Models performed better than ridge regression models. We will choose Random Forests as our final model as it took lesser time to train.
 
-- Test Random Forests model with test data(unseen data) and results. There are two steps that we have to take to prepare our data for the model:
+###### Test Random Forests model with test data(unseen data) and results. There are two steps that we have to take to prepare our data for the model:
     - Use the feature engineered variables from the training data and introde these features on the test data.
     - Some of the features would not have been seen during training, so we will carefully fill null entries before testing on the test data.
-Test prediction: 
+    
 ![Screen Shot 2022-12-03 at 8 50 28 AM](https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png)
+
+- Conclusions: After doing some error analysis we found that our prediction differs more from actual patient pay for entries where the deductible of the patient pay hasn't been fulfilled yet.
+
+- Recommendations : One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
 
 
 #### HistGradientBoostingRegressor:

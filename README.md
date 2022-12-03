@@ -26,8 +26,8 @@ A brief description of the identifiers included in this dataset:
 - patient_pay – The amount of copayment for which the patient is responsible
 
 ## Tools 
-Python packages and libraries: Numpy, Pandas, Skitlearn
-Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboot classifier, XGboot regressor
+- Python packages and libraries: Numpy, Pandas, Skitlearn
+- Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboot classifier, XGboot regressor
 
 
 ## Data EDA Process
@@ -43,17 +43,18 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
 ![Screen Shot 2022-11-25 at 1 26 55 AM](https://user-images.githubusercontent.com/65901034/203914911-89da7c98-ce95-451f-a496-de7b1fce7baa.png)
 ![Screen Shot 2022-11-25 at 1 22 51 AM](https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png)
 
-
+- Most of the copayment range is 5-15 US dollars.
 
  
 
 ## Machine Learning models:  
 ### In order to predict patient payment with optimal accuracy, we have tried several models as following:
+    - Ridge Regression Model
     - RandomForestRegressor
     - GradientBoostingRegressor
     - HistGradientBoostingRegressor
     - CatBootRegressor
-#### RandomForestRegressor and GradientBoostingRegressor: 
+#### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
 - Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
 - Feature engennering
@@ -64,8 +65,17 @@ Machine learning algorithms: Random Forest classifier, CatBoost regressor, XGboo
 
 ![Screen Shot 2022-11-27 at 10 47 22 PM](https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png)
 
+- Metrics to determine which model performs better:
+    - R2 score
+    - Mean absolute error
+    - Mean squared error
+    - Mean absolute percent error
+- Train and test models were performed and comaprision of their performace is below:
 
-- train and test models
+![Screen Shot 2022-12-03 at 8 37 11 AM](https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png)
+
+We can clearly see Random Forest and Gradient Boost Regressor Models performed better than ridge regression models. We will choose Random Forests as our final model as it took lesser time to train.
+
 
 #### HistGradientBoostingRegressor:
 

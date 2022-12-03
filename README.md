@@ -49,7 +49,7 @@ A brief description of the identifiers included in this dataset:
 
 ## Machine Learning models:  
 ### In order to predict patient payment with optimal accuracy, we have tried several models as following:
-    - Ridge Regression Model
+    - RidgeRegressor
     - RandomForestRegressor
     - GradientBoostingRegressor
     - HistGradientBoostingRegressor

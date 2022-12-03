@@ -79,7 +79,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 - Test Random Forests model with test data(unseen data) and results. There are two steps that we have to take to prepare our data for the model:
     - Use the feature engineered variables from the training data and introde these features on the test data.
     - Some of the features would not have been seen during training, so we will carefully fill null entries before testing on the test data.
-    -   
+Test prediction: 
 ![Screen Shot 2022-12-03 at 8 50 28 AM](https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png)
 
 

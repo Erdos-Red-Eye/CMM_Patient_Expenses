@@ -32,7 +32,7 @@ A brief description of the identifiers included in this dataset:
 
 ## Data EDA Process
 #### Cleaning the data
-- drop duplicates
+- drop duplicates across all the columns in the dataset
 #### Percentage of Accepted and Rejected claims in the dataset:
 
 ![Screen Shot 2022-11-24 at 11 38 29 PM](https://user-images.githubusercontent.com/65901034/203902584-384e719c-5af3-4bfd-af36-e17d9a8e5b88.png)
@@ -57,9 +57,9 @@ A brief description of the identifiers included in this dataset:
 Since we have mainly categorical features in our dataset we tried models that deals with numerical features or categorical dfeature
 ### Models with engennered numerical features:
 #### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
-- Feature analysis
+- ###### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
-- Feature engennering
+- ###### Feature engennering
   - introduce new features on our training data. We introduce 8 features by aggregating over various columns. These features will have two applications :
      - Help us build a model to predict patient pay.
      - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.
@@ -67,12 +67,12 @@ Since we have mainly categorical features in our dataset we tried models that de
 
 ![Screen Shot 2022-11-27 at 10 47 22 PM](https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png)
 
-- Metrics to determine which model performs better:
+- ###### Metrics to determine which model performs better:
     - R2 score
     - Mean absolute error
     - Mean squared error
     - Mean absolute percent error
-- Train models with training data and comaprision of their performace is below:
+- ###### Train models with training data and comaprision of their performace is below:
 
 ![Screen Shot 2022-12-03 at 8 37 11 AM](https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png)
 

@@ -85,12 +85,12 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 ![Screen Shot 2022-12-03 at 8 50 28 AM](https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png)
 
 - ##### Conclusions: 
-- After doing some error analysis we found that our prediction differs more from actual patient pay for entries where the deductible of the patient pay hasn't been fulfilled yet as you can see below table the claim on Janurary:
+  - After doing some error analysis we found that our prediction differs more from actual patient pay for entries where the deductible of the patient pay hasn't been fulfilled yet as you can see below table the claim on Janurary:
 
 ![Screen Shot 2022-12-03 at 9 02 11 AM](https://user-images.githubusercontent.com/65901034/205444673-cb0d13f9-81b0-4998-87be-70a60e227867.png)
 
 - ##### Recommendations: 
-- One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
+  - One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
 
 ### Models with Categorical features: 
 #### HistGradientBoostingRegressor:

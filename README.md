@@ -69,9 +69,9 @@ Since we have both categorical and numerical features in our dataset, we tried m
 
 - ##### Metrics to determine which model performs better:
     - R2 score
-    - Mean absolute error
-    - Mean squared error
-    - Mean absolute percent error
+    - Mean absolute error (MAE)
+    - Mean squared error (RMSE)
+    - Mean absolute percent error(MAPE)
 - ##### Train models with training data and comaprision of their performace is below:
 
 ![Screen Shot 2022-12-03 at 8 37 11 AM](https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png)

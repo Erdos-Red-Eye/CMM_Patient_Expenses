@@ -33,15 +33,17 @@ A brief description of the identifiers included in this dataset:
 #### Cleaning the data
 - drop duplicates across all the columns in the dataset
 #### Percentage of Accepted and Rejected claims in the dataset:
-
-![Screen Shot 2022-11-24 at 11 38 29 PM](https://user-images.githubusercontent.com/65901034/203902584-384e719c-5af3-4bfd-af36-e17d9a8e5b88.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65901034/203902584-384e719c-5af3-4bfd-af36-e17d9a8e5b88.png"/>
+</p>
 
 #### The distribution of patient copayment in the dataset, both linear and log10 scale:
-![Screen Shot 2022-11-25 at 1 07 21 AM](https://user-images.githubusercontent.com/65901034/203912922-e2c61aa1-e3af-4c08-a24e-42deacaa20ac.png)
-![Screen Shot 2022-11-25 at 1 12 04 AM](https://user-images.githubusercontent.com/65901034/203912993-476304f7-47db-48c2-b7f4-6739f22f289c.png)
-![Screen Shot 2022-11-25 at 1 26 55 AM](https://user-images.githubusercontent.com/65901034/203914911-89da7c98-ce95-451f-a496-de7b1fce7baa.png)
-![Screen Shot 2022-11-25 at 1 22 51 AM](https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png)
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/65901034/203912922-e2c61aa1-e3af-4c08-a24e-42deacaa20ac.png"/> <img src="https://user-images.githubusercontent.com/65901034/203912993-476304f7-47db-48c2-b7f4-6739f22f289c.png"/>
+<img src="https://user-images.githubusercontent.com/65901034/203914911-89da7c98-ce95-451f-a496-de7b1fce7baa.png"/>
+<img src="https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png"/>
+</p>
 - Most of the copayment range in the dataset is 5-60 US dollars.
 
  
@@ -63,9 +65,9 @@ Since we have both categorical and numerical features in our dataset, we tried m
      - Help us build a model to predict patient pay.
      - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.
   - correlation among features
-
-![Screen Shot 2022-11-27 at 10 47 22 PM](https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png"/>
+</p>
 - ##### Metrics to determine which model performs better:
     - R2 score
     - Mean absolute error (MAE)

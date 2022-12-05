@@ -9,9 +9,9 @@ Using a set of (SIMULATED) pharmacy data-billing claims that were run from a pha
 ### Data Source and Description 
 [Data](https://drive.google.com/drive/folders/1ARlKaPluI1mNB7A-Vd7eHrddBdLt60m4) 
 : About 14 million pharmacy transactions from a handful of pharmacies taken over the course of a year 2022 as you can see in the screenshot below:
-
-![Screen Shot 2022-11-22 at 11 31 21 PM](https://user-images.githubusercontent.com/65901034/203469662-3520bf76-1bd7-4cbf-a83a-2c4850bd7df8.png)
-
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/65901034/203469662-3520bf76-1bd7-4cbf-a83a-2c4850bd7df8.png"  />
+</p>
 
 
 A brief description of the identifiers included in this dataset:

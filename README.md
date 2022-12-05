@@ -60,37 +60,44 @@ Since we have both categorical and numerical features in our dataset, we tried m
 #### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
 - ##### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
-- ##### Feature engennering
+##### Feature engennering
   - introduce new features on our training data. We introduce 8 features by aggregating over various columns. These features will have two applications :
      - Help us build a model to predict patient pay.
      - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.
   - correlation among features
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png"/>
 </p>
-- ##### Metrics to determine which model performs better:
+
+##### Metrics to determine which model performs better:
     - R2 score
     - Mean absolute error (MAE)
     - Mean squared error (RMSE)
     - Mean absolute percent error(MAPE)
-- ##### Train models with training data and comaprision of their performace is below:
+    
+##### Train models with training data and comaprision of their performace is below:
 
-![Screen Shot 2022-12-03 at 8 37 11 AM](https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png"/>
+</p>
 
 We can clearly see Random Forest and Gradient Boost Regressor Models performed better than ridge regression models. We will choose Random Forests as our final model as it took lesser time to train.
 
 ##### Test Random Forests model with test data(unseen data) and results. There are two steps that we have to take to prepare our data for the model:
     - Use the feature engineered variables from the training data and introde these features on the test data.
     - Some of the features would not have been seen during training, so we will carefully fill null entries before testing on the test data.
-    
-![Screen Shot 2022-12-03 at 8 50 28 AM](https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png)
+<p align="center">    
+<img src="https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png"/>
+</p>
 
-- ##### Conclusions: 
+##### Conclusions: 
   - After doing some error analysis we found that our prediction differs more from actual patient pay for entries where the deductible of the patient pay hasn't been fulfilled yet as you can see below table the claim on Janurary:
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/65901034/205444673-cb0d13f9-81b0-4998-87be-70a60e227867.png"/>
+</p>
 
-![Screen Shot 2022-12-03 at 9 02 11 AM](https://user-images.githubusercontent.com/65901034/205444673-cb0d13f9-81b0-4998-87be-70a60e227867.png)
-
-- ##### Recommendations: 
+##### Recommendations: 
   - One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
 
 ### Models with Categorical features: 

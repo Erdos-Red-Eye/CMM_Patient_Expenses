@@ -93,8 +93,14 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
   - One might train two models with two amounts predicting copay_with_deductible and copay_without_deductible; so that doctors might ask the patient whether they have met the deductible or not and prescribe the drug accordingly.
 
 ### Models with Categorical features: 
-#### HistGradientBoostingRegressor:
+#### HistGradientBoostingRegressor: 
+- In sklearn HistGradientBoostingRegressor has native support for categorical variables allowing for minimal preprocessing of the features in the data set. The categorical variables for insurance (bin, pcn, and group) and drug are transformed into ordinal values using the label encoder.
+- Five models are trained to imporve performace from baseline algorithm by changing  defining categorical features, no bound on the number of leaf nodes, adding day of the year or adding month to the features. The comparison of models showed in the following table with performance matrixes:
 
+![Screen Shot 2022-12-04 at 11 47 21 PM](https://user-images.githubusercontent.com/65901034/205551699-cd7b04fe-a8d5-43f9-ba89-e50268010b58.png)
+
+- Model 4 and Model 5 show very similar statistics. Model 5 outperforms Model 4 in two key areas training time and mean MAPE.
+- Cross validation of model fitted only on the insurance information and drug name show a mean average precentage error of ~1.5%.
 #### CatBootRegressor:
 
 ### In order to classify claims acceptance or rejection, we have tried 

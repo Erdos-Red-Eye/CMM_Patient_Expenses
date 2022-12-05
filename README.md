@@ -1,8 +1,8 @@
 ## Project: CoverMyMeds prediction of patient copayment for prescribed drugs  
 ### Project Team Members
-Craig Franze; Charles D Ruggiero; Mandy Cheung; Shirali Obul;
+Craig Franze PhD; Charles D Ruggiero PhD; Mandy Cheung PhD; Shirali Obul PhD;
 ## Project Overview
-Using a set of (SIMULATED) pharmacy data-billing claims that were run from a pharmacy to a third-party payer (insurance plan) who covers some portion of the prescription drug price on behalf of a patient. As part of the claim process the amount that the payer reimburses the pharmacy and copayments required of the patient are set by complicated negotiations and contracts between the drug manufacturer, the payer, and the pharmacy. Those negotiations also often cover decisions on what drug claims will ultimately be approved (preferred / non-preferred / non-covered formulary status of each drug) based on the relative discounts that the payer can secure relative to other drugs in the same class that may treat the similar types of medical conditions. Therefore, using this claim billing data into machine learning algorithms to build a method of predicting the copayments required of patients ahead of time will be useful for doctors to presribe drugs based on patient affordability. 
+Using a set of pharmacy data-billing claims that were run from a pharmacy to a third-party payer (insurance plan) who covers some portion of the prescription drug price on behalf of a patient. As part of the claim process the amount that the payer reimburses the pharmacy and copayments required of the patient are set by complicated negotiations and contracts between the drug manufacturer, the payer, and the pharmacy. Those negotiations also often cover decisions on what drug claims will ultimately be approved (preferred / non-preferred / non-covered formulary status of each drug) based on the relative discounts that the payer can secure relative to other drugs in the same class that may treat the similar types of medical conditions. Therefore, using this claim billing data into machine learning algorithms to build a method of predicting the copayments required of patients ahead of time will be useful for doctors to presribe drugs based on patient affordability. 
 ### Project Aim:
 - Main goal of the project is to provide doctors information about the costs that their patient would expect to see in the pharmacy in case affordability of the medication was an issue.
 
@@ -12,7 +12,6 @@ Using a set of (SIMULATED) pharmacy data-billing claims that were run from a pha
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/65901034/203469662-3520bf76-1bd7-4cbf-a83a-2c4850bd7df8.png"  />
 </p>
-
 
 A brief description of the identifiers included in this dataset:
 - tx_date – The date on which the pharmacy transaction was attempted
@@ -119,6 +118,9 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 
 
 ## Conclusions 
+-
+-
+-
 
 ## Future perspective
 - To develop a method of grouping similar medications together so that all the options under a patient’s insurance could be compared together based on their relative formulary statuses and copayment requirements.

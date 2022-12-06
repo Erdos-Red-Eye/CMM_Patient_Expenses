@@ -109,7 +109,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 </p>
 
 - Model 4 and Model 5 show very similar statistics. Model 5 outperforms Model 4 in two key areas training time and mean MAPE.
-- Cross validation of model fitted only on the insurance information and drug name show a mean average precentage error of ~1.5%.
+- Cross validation of model fitted on the insurance information, drug name and month show the best outcome with a mean average precentage error of ~1.4%.
 #### CatBootRegressor:
 
 ### In order to classify claims acceptance or rejection, we have tried 

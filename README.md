@@ -7,7 +7,7 @@ Using a set of pharmacy data-billing claims that were run from a pharmacy to a t
 - Main goal of the project is to provide doctors information about the costs that their patient would expect to see in the pharmacy in case affordability of the medication was an issue.
 
 ### Data Source and Description 
-[Data](https://drive.google.com/drive/folders/1ARlKaPluI1mNB7A-Vd7eHrddBdLt60m4) 
+[Data Source](https://drive.google.com/drive/folders/1ARlKaPluI1mNB7A-Vd7eHrddBdLt60m4) 
 : About 14 million pharmacy transactions from a handful of pharmacies taken over the course of a year 2022 as you can see in the screenshot below:
 <p align="center">
 <img src= "https://user-images.githubusercontent.com/65901034/203469662-3520bf76-1bd7-4cbf-a83a-2c4850bd7df8.png"  />

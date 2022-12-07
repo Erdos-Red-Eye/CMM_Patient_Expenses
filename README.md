@@ -130,8 +130,9 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 - [Webapp](https://shiraliobul.github.io/CMM_Copayment_Predictor/)
 - This is the prototype of the webapp that we are trying to build in order to provide doctors to type in patient information and show the predicted  copayment and also be able to compare it in the original dataset by filtering the table.  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65901034/206203494-023e62c7-87b6-473c-b3d8-49cd828eaa6f.pn)"/>
+<img width="1512" alt="Screenshot 2022-12-07 at 9 19 01 AM" src="https://user-images.githubusercontent.com/65901034/206203954-a50236cf-a2f4-46f3-9308-099e8f08f351.png">
 </p>
+
 
 
 

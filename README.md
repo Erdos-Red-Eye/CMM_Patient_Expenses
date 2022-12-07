@@ -128,6 +128,11 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 ## Presentation and Webapp(prototype)
 - [GoogleSlide](https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing)
 - [Webapp](https://shiraliobul.github.io/CMM_Copayment_Predictor/)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65901034/206070479-cb9b8f3b-b581-4d21-a525-c2f03e1840b1.png"/>
+</p>
+
+
 
 
 

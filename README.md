@@ -48,7 +48,8 @@ A brief description of the identifiers included in this dataset:
  
 
 # Machine Learning models:  
-## In order to predict patient payment with optimal accuracy, we have tried several models as following:
+## Regressors: 
+### In order to predict patient payment with optimal accuracy, we have tried several regressor models as following:
     - RidgeRegressor
     - RandomForestRegressor
     - GradientBoostingRegressor
@@ -115,6 +116,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 - Cross validation of model fitted on the insurance information, drug name and month show the best outcome with a mean average precentage error of ~1.4%.
 #### CatBootRegressor:
 
+## Classifiers
 ### In order to predict claims acceptance or rejection, we have tried follwoing classfier models:
 - As we have unbalanced data for accepted and rejected claims (9:1 ratio), we need to deal with data balancing for our models. BalancedRandomForestClassifier can balance the data so we directly apply the model, but we did downsampling of accepted claims with XGBoost classifier to optimize performance.
     - BalancedRandomForestClassifier with 87.7% accuracy (0 is accepted, 1 is rejected)

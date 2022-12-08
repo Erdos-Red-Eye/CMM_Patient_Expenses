@@ -80,6 +80,9 @@ Since we have mostly categorical data in our dataset, we tried models that deals
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/205443660-09056a12-fc81-4984-aa9f-0b70e9f637bb.png"/>
 </p>
+<p align="center">
+<img width="1041" alt="Screenshot 2022-12-08 at 9 01 30 AM" src="https://user-images.githubusercontent.com/65901034/206465567-b445b026-7238-4762-994a-b2f0376e3067.png">
+</p>
 
 We can clearly see Random Forest and Gradient Boost Regressor Models performed better than ridge regression models. We will choose Random Forests as our final model as it took lesser time to train.
 

@@ -117,7 +117,8 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 
 ### In order to predict claims acceptance or rejection, we have tried follwoing classfier models:
 - As we have unbalanced data for accepted and rejected claims (9:1 ratio), we need to deal with data balancing for our models. BalancedRandomForestClassifier can balance the data so we directly apply the model, but we did downsampling of accepted claims with XGBoost classifier to optimize performance.
-    - BalancedRandomForestClassifier
+    - BalancedRandomForestClassifier and it is results
+    
     - XGboostClassifier
 
 

@@ -59,7 +59,7 @@ Since we have mostly categorical data in our dataset, we tried models that deals
 #### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
 - ##### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
-##### Feature engennering
+##### Feature enginnering
   - introduce new features on our training data. We introduce 8 features by aggregating over various columns. These features will have two applications :
      - Help us build a model to predict patient pay.
      - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.

@@ -42,6 +42,7 @@ A brief description of the identifiers included in this dataset:
 <img src="https://user-images.githubusercontent.com/65901034/203912993-476304f7-47db-48c2-b7f4-6739f22f289c.png"/>
 
 <img src="https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png"/>
+<img src="https://user-images.githubusercontent.com/65901034/206808470-6029976b-c1b0-48ef-a9f5-5759c7f4a33a.png"/>
 </p>
 - Most of the copayment range in the dataset is 5-60 US dollars.
 

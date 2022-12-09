@@ -56,8 +56,8 @@ A brief description of the identifiers included in this dataset:
     - HistGradientBoostingRegressor
     - CatBootRegressor
 Since we have mostly categorical data in our dataset, we tried models that deals with engineered numerical features and original categorical features.
-### [Models with enginnered numerical features](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/franze/patient_pay_prediction_annotated.ipynb):
-#### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
+### Models with enginnered numerical features
+#### [Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/franze/patient_pay_prediction_annotated.ipynb):
 - ##### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
 ##### Feature enginnering

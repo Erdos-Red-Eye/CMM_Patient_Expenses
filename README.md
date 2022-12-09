@@ -36,7 +36,7 @@ A brief description of the identifiers included in this dataset:
 <img src="https://user-images.githubusercontent.com/65901034/203902584-384e719c-5af3-4bfd-af36-e17d9a8e5b88.png"/>
 </p>
 
-#### The distribution of patient copayment in the dataset in logarithmic scale:
+#### The distribution of patient copayment in the dataset:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/203912993-476304f7-47db-48c2-b7f4-6739f22f289c.png"/>

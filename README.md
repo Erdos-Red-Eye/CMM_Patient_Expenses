@@ -56,7 +56,7 @@ A brief description of the identifiers included in this dataset:
     - HistGradientBoostingRegressor
     - CatBootRegressor
 Since we have mostly categorical data in our dataset, we tried models that deals with engineered numerical features and original categorical features.
-### Models with engennered numerical features:
+### [Models with enginnered numerical features]():
 #### Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor: 
 - ##### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)

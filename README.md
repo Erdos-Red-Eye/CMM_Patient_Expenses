@@ -112,6 +112,12 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 <img src="https://user-images.githubusercontent.com/65901034/205551699-cd7b04fe-a8d5-43f9-ba89-e50268010b58.png"/>
 </p>
 
+#### [Demonstration of pickled HBGR Model](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/Charlie_Branch/DrugComparrison.ipynb)
+- Shows a simple application of the HGBR patient pay predicting model that allows a doctor to compare the predicted patient pay for mulitple drugs that have been prescribed for a particular diagnosis.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/65901034/206856460-c8b847eb-e80f-42bc-bc96-e159b51b9799.png"/>
+</p>
+
 - Model 4 and Model 5 show very similar statistics. Model 5 outperforms Model 4 in two key areas training time and mean MAPE.
 - Cross validation of model fitted on the insurance information, drug name and month show the best outcome with a mean average precentage error of ~1.4%.
 #### CatBootRegressor:

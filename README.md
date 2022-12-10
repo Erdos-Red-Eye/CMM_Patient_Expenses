@@ -147,7 +147,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 
 
 ## Presentation and Webapp(prototype)
-- [GoogleSlide](https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing)
+- Presentation [GoogleSlide](https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing)
 - [Video Presentation](https://www.erdosinstitute.org/project-database) by Search (Red Eye or Team 89) Cohort (Fall 2022)
  
 - [Webapp](https://shiraliobul.github.io/CMM_Copayment_Predictor/)

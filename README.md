@@ -137,7 +137,11 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 -
 
 ## Future perspective
-- To develop a method of grouping similar medications together so that all the options under a patient’s insurance could be compared together based on their relative formulary statuses and copayment requirements.
+- Build separate models for the generic and branded drugs.
+- Examine the outliers where the models perform poorly and see if there is a particular commonality amongst them that could explain this.
+- Combine engineered features, such as the ones used in the Random Forest model, or rejection rate for example, with the HistGradientBoosting model.
+- Develop the app further by integrating these improvements to help doctors easily obtain predicted prices of medications ahead of time.
+
 
 ## Presentation and Webapp(prototype)
 - [GoogleSlide](https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing)

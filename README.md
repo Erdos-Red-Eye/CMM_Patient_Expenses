@@ -129,13 +129,6 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
  
     - XGboostClassifier is working in progress
 
-
-## Conclusions 
--
-
-
--
-
 ## Future perspective
 - Build separate models for the generic and branded drugs.
 - Examine the outliers where the models perform poorly and see if there is a particular commonality amongst them that could explain this.

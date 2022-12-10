@@ -57,11 +57,11 @@ A brief description of the identifiers included in this dataset:
     - HistGradientBoostingRegressor
     - CatBootRegressor
 Since we have mostly categorical data in our dataset, we tried models that deals with engineered numerical features and original categorical features.
-### Models with enginnered numerical features
+### Models with engineered numerical features
 #### [Ridge Regression Model, RandomForestRegressor and GradientBoostingRegressor](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/franze/patient_pay_prediction_annotated.ipynb):
 - ##### Feature analysis
   - Taking only accepted claims for the model and splitting data into training and test sets (test size is 20% of the total dataset)
-##### Feature enginnering
+##### Feature engineering
   - introduce new features on our training data. We introduce 8 features by aggregating over various columns. These features will have two applications :
      - Help us build a model to predict patient pay.
      - Help us impute claim entries when some of the features like drug, group, pcn or pharmacy are missing.

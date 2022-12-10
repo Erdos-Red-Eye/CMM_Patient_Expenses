@@ -70,6 +70,7 @@ Since we have mostly categorical data in our dataset, we tried models that deals
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/204189933-fac0886d-baec-4d9b-a547-5d1202145d79.png"/>
 </p>
+
 ##### Metrics to determine which model performs better:
     - R2 score
     - Mean absolute error (MAE)

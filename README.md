@@ -137,7 +137,8 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
  
 
  
-    - XGboostClassifier is working in progress
+    - XGboostClassifier
+    We did not have good classification as we got from RandomForestClassifier. 
 
 ## Future perspective
 - Build separate models for the generic and branded drugs.

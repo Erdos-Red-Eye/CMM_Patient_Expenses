@@ -29,7 +29,7 @@ A brief description of the identifiers included in this dataset:
 
 
 ## Data EDA Process
-#### Cleaning the data
+#### [Cleaning the data]()
 - Drop duplicated rows across all the columns in the dataset.
 #### Percentage of Accepted and Rejected claims in the dataset:
 <p align="center">

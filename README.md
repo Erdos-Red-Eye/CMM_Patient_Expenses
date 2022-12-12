@@ -52,7 +52,7 @@ A brief description of the identifiers included in this dataset:
 <img src="https://user-images.githubusercontent.com/65901034/207106900-960980cc-787a-47da-bbfd-5d244e0d8ec0.png"/>
 </p>
 
-- Most of the copayment range in the dataset is 5-60 US dollars.
+- Most of the copayment range in the dataset is 5-50 US dollars, 9,325,049 out of 12,561,845 claims.
 
  
 

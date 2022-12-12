@@ -44,7 +44,7 @@ A brief description of the identifiers included in this dataset:
 <img src="https://user-images.githubusercontent.com/65901034/203914342-5cd96312-a790-467e-af46-8ca5a3ee2230.png"/>
 </p>
 
-[EDA](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/CMM_payment_EDA1.ipynb)
+[EDA](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/CMM_Copayment_EDA1.ipynb)
 - Patient payment distribution by drug name:
 <p align="center">
 <img width="1064" alt="Screenshot 2022-12-12 at 2 24 03 PM" src="https://user-images.githubusercontent.com/65901034/207135971-95c0105f-60f3-49b2-a2dd-5ce95cbf9a8a.png"/>

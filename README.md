@@ -48,7 +48,9 @@ A brief description of the identifiers included in this dataset:
 [EDA](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/CMM_payment_EDA1.ipynb)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/206808470-6029976b-c1b0-48ef-a9f5-5759c7f4a33a.png"/>
+<img src="https://user-images.githubusercontent.com/65901034/207106900-960980cc-787a-47da-bbfd-5d244e0d8ec0.png"/>
 </p>
+
 - Most of the copayment range in the dataset is 5-60 US dollars.
 
  

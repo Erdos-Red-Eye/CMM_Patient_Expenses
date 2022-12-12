@@ -48,7 +48,7 @@ A brief description of the identifiers included in this dataset:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/65901034/206808470-6029976b-c1b0-48ef-a9f5-5759c7f4a33a.png"/>
  
-- Generic drugs are generally cheaper. Branded drugs are represented at a higher rate in the data set. In this grapgh 1 is generic (orange color), 1 is branded (blue):
+- Generic drugs are generally cheaper. Branded drugs are represented at a higher rate in the data set. In this grapgh 1 is generic (orange color), 0 is branded (blue):
 <img src="https://user-images.githubusercontent.com/65901034/207106900-960980cc-787a-47da-bbfd-5d244e0d8ec0.png"/>
 </p>
 

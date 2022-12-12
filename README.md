@@ -45,14 +45,20 @@ A brief description of the identifiers included in this dataset:
 </p>
 
 [EDA](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/CMM_payment_EDA1.ipynb)
+- Patient payment distribution by drug name:
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65901034/206808470-6029976b-c1b0-48ef-a9f5-5759c7f4a33a.png"/>
- 
-- Generic drugs are generally cheaper. Branded drugs are represented at a higher rate in the data set. In this grapgh 1 is generic (orange color), 0 is branded (blue):
-<img src="https://user-images.githubusercontent.com/65901034/207106900-960980cc-787a-47da-bbfd-5d244e0d8ec0.png"/>
-</p>
-
+<img width="1064" alt="Screenshot 2022-12-12 at 2 24 03 PM" src="https://user-images.githubusercontent.com/65901034/207135971-95c0105f-60f3-49b2-a2dd-5ce95cbf9a8a.png"/>
 - Most of the copayment range in the dataset is 5-50 US dollars, 9,325,049 out of 12,561,845 claims is in this range.
+</p> 
+
+- In this grapgh 1 is generic (orange color), 0 is branded (blue):
+<p align="center">
+<img width="1033" alt="Screenshot 2022-12-12 at 2 21 25 PM" src="https://user-images.githubusercontent.com/65901034/207135377-26b60663-5438-4998-a6e8-b9831b81a636.png"/>
+- Generic drugs are generally cheaper. Branded drugs are represented at a higher rate in the data set.
+ </p>
+
+
+
 
  
 

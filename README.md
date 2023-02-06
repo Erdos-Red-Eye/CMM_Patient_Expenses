@@ -1,4 +1,4 @@
-## Project: CoverMyMeds prediction of patient copayment for prescribed drugs  
+# Project: CoverMyMeds prediction of patient copayment for prescribed drugs  
 ### Project Team Members
 Craig Franze PhD; Charles D Ruggiero PhD; Mandy Cheung PhD; Shirali Obul PhD;
 ## Project Overview
@@ -61,7 +61,7 @@ A brief description of the identifiers included in this dataset:
 
 
  
-**[`^        back to top        ^`](##Project: CoverMyMeds prediction of patient copayment for prescribed drugs)**
+**[`^        back to top        ^`](#Project: CoverMyMeds prediction of patient copayment for prescribed drugs)**
 # Machine Learning models:  
 ## Regressors: 
 ### In order to predict patient payment with optimal accuracy, we have tried several regressor models as following:

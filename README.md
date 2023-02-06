@@ -27,7 +27,7 @@ A brief description of the identifiers included in this dataset:
 - ##### Python packages and libraries: Numpy, Pandas, Skitlearn
 - ##### Machine learning algorithms (see in machine learning section)
 
-
+**[`^        back to top        ^`](#project-team-members)**
 ## Data EDA Process
 #### [Cleaning the data](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/CMM_Copayment_EDA.ipynb)
 - Drop duplicated rows across all the columns in the dataset.
@@ -61,7 +61,7 @@ A brief description of the identifiers included in this dataset:
 
 
  
-**[`^        back to top        ^`](#Project: CoverMyMeds prediction of patient copayment for prescribed drugs)**
+**[`^        back to top        ^`](#project-team-members)**
 # Machine Learning models:  
 ## Regressors: 
 ### In order to predict patient payment with optimal accuracy, we have tried several regressor models as following:
@@ -109,6 +109,8 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 <img src="https://user-images.githubusercontent.com/65901034/205444349-f45f9ca5-df1d-457f-86a6-1ffeaacff311.png"/>
 </p>
 
+**[`^        back to top        ^`](#project-team-members)**
+
 ##### Conclusions: 
   - After doing some error analysis we found that our prediction differs more from actual patient pay for entries where the deductible of the patient pay hasn't been fulfilled yet as you can see below table the claim on Janurary:
 <p align="center"> 
@@ -135,6 +137,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 <img src="https://user-images.githubusercontent.com/65901034/206856460-c8b847eb-e80f-42bc-bc96-e159b51b9799.png"/>
 </p>
 
+**[`^        back to top        ^`](#project-team-members)**
 #### CatBootRegressor:
 
 ## Classifiers
@@ -160,7 +163,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
 - Combine engineered features, such as the ones used in the Random Forest model, or rejection rate for example, with the HistGradientBoosting model.
 - Develop the app further by integrating these improvements to help doctors easily obtain predicted prices of medications ahead of time.
 
-
+**[`^        back to top        ^`](#project-team-members)**
 ## Presentation and Webapp(prototype)
 - Presentation [GoogleSlide](https://docs.google.com/presentation/d/1fUMjhsC_x6y-02GUdo7BRB4d-LaayGNRFovKLvo0F7w/edit?usp=sharing)
 - [Video Presentation](https://www.erdosinstitute.org/project-database) by Search (Red Eye or Team 89) Cohort (Fall 2022)

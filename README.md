@@ -172,6 +172,7 @@ We can clearly see Random Forest and Gradient Boost Regressor Models performed b
     - This is the prototype of the webapp that we are trying to build in order to provide doctors to type in patient information and show the predicted  copaymen. Moreover, doctors or user be able to compare the predicted price in the original dataset by filtering the table.  
 <p align="center">
 <img width="1512" alt="Screenshot 2022-12-07 at 9 19 01 AM" src="https://user-images.githubusercontent.com/65901034/206203954-a50236cf-a2f4-46f3-9308-099e8f08f351.png">
+![](https://github.com/Erdos-Red-Eye/CMM_Patient_Expenses/blob/main/my_awesome5.gif)
 </p>
 
 

@@ -48,7 +48,7 @@ A brief description of the identifiers included in this dataset:
 - Patient payment distribution by drug name:
 <p align="center">
 <img width="1064" alt="Screenshot 2022-12-12 at 2 24 03 PM" src="https://user-images.githubusercontent.com/65901034/207135971-95c0105f-60f3-49b2-a2dd-5ce95cbf9a8a.png"/>
-- Most of the copayment range in the dataset is 5-50 US dollars, 9,325,049 out of 12,561,845 claims is in this range.
+- Most of the copayment range in the dataset is 10-20 US dollars, 9,325,049 out of 12,561,845 claims is in this range.
 </p> 
 
 - In this grapgh 1 is generic (orange color), 0 is branded (blue):
